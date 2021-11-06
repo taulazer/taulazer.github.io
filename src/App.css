@@ -35,6 +35,14 @@
   cursor:pointer;
 }
 
+.App-header .btn-download {
+  border: #FF0040;
+  border-radius: 10px;
+  transform: matrix(0.98, 0, -0.18, 1, 0, 0);
+  text-decoration: none;
+  cursor:pointer;
+}
+
 .App-header .btn-download:hover {
   background: #b2002b;
 }
@@ -54,23 +62,30 @@
   left: 1rem;
   text-align: left;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
-
 }
 
 .App-footer .text-bold{
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   margin:0;
 }
 
 .App-footer a {
   text-decoration: none;
   font-weight: 600;
-  color: #66ccff;
+  color: white;
+  padding-right: 1em;
 }
 
+
+.App-footer a svg {
+  height: 2rem;
+  width:auto;
+}
+
+
 .App-footer a:hover {
-  color: #50a1c5;
+  color: #FF0040;
 }
