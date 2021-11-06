@@ -1,0 +1,76 @@
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  font-family: Azonix, sans-serif;
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(0, 0, 0, 0.6)
+  ),
+  url("assets/img.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 32px;
+  color: white;
+  min-height:100vh;
+}
+.App-header p {
+  font-weight: 400;
+  font-size: 32px;
+  padding: 0.25rem;
+}
+
+.App-header .btn-download {
+  background: #FF0040;
+  border-radius: 10px;
+  transform: matrix(0.98, 0, -0.18, 1, 0, 0);
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.App-header .btn-download:hover {
+  background: #b2002b;
+}
+
+.App-header .btn-download span {
+  font-size: x-large;
+  text-align: center;
+  margin: 2em 2em;
+  line-height: 2.5;
+  color: white;
+}
+
+.App-footer {
+  font-family: 'Inter', sans-serif;
+  position:absolute;
+  bottom: 1rem;
+  left: 1rem;
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.App-footer .text-bold{
+  font-weight: 600;
+  font-size: 20px;
+  margin:0;
+}
+
+.App-footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #66ccff;
+}
+
+.App-footer a:hover {
+  color: #50a1c5;
+}
