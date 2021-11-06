@@ -3,7 +3,6 @@
   text-align: center;
 }
 
-
 .App-header {
   font-family: Azonix, sans-serif;
   background-image: linear-gradient(
@@ -20,6 +19,10 @@
   line-height: 32px;
   color: white;
   min-height:100vh;
+}
+.App-header img {
+  height: auto;
+  max-width: 80vw;
 }
 .App-header p {
   font-weight: 400;
