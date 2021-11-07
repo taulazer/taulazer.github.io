@@ -9,7 +9,7 @@
           rgba(0, 0, 0, 0.6),
           rgba(0, 0, 0, 0.6)
   ),
-  url("assets/img.png");
+  url("assets/header-mobile.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -20,6 +20,17 @@
   color: white;
   min-height:100vh;
 }
+
+@media screen and (min-width: 1000px) {
+  .App-header {
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+    ),
+    url("assets/header.jpg");
+  }
+}
+
 .App-header img {
   height: auto;
   max-width: 80vw;
